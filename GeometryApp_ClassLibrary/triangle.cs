@@ -15,7 +15,7 @@ public class triangle : IShape
     public double CalculateArea()
     {
         
-        return 0; 
+        return (x*b)/2; 
     }
 
     public double CalculatePerimeter()
