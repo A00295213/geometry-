@@ -12,7 +12,7 @@ namespace GeometryApp_Tests
             
             var triangle = new triangle(4, 5 ,2);
 
-            // Act
+            
             var result = triangle.CalculateArea();
 
             

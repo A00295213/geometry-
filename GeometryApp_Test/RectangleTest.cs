@@ -9,27 +9,27 @@ namespace GeometryApp_Tests
         [TestMethod]
         public void TestArea()
         {
-            // Arrange
-            var rectangle = new rectangle(4, 6);
+            
+            var rectangle = new rectangle(5, 6);
 
-            // Act
+            
             var result = rectangle.CalculateArea();
 
-            // Assert
-            Assert.AreEqual(24, result);
+            
+            Assert.AreEqual(30, result);
         }
 
         [TestMethod]
         public void TestPerimeter()
         {
-            // Arrange
-            var rectangle = new rectangle(4, 6);
+            
+            var rectangle = new rectangle(5, 6);
 
-            // Act
+           
             var result = rectangle.CalculatePerimeter();
 
-            // Assert
-            Assert.AreEqual(20, result);
+            
+            Assert.AreEqual(22, result);
         }
     }
 }
